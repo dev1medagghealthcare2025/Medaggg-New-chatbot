@@ -1,0 +1,44 @@
+/* Chatbot specific styles */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.chatbot-button:hover {
+  transform: scale(1.1);
+}
+
+.chatbot-treatment-button:hover {
+  background-color: #fdf2f8 !important;
+  border-color: #ec4899 !important;
+}
+
+.chatbot-quick-response:hover {
+  background-color: #fdf2f8 !important;
+  border-color: #ec4899 !important;
+}
+
+/* Scrollbar styles */
+.chatbot-messages::-webkit-scrollbar {
+  width: 4px;
+}
+
+.chatbot-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 2px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
